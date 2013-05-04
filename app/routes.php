@@ -11,6 +11,8 @@
 |
 */
 
+Route::resource('quotes', 'QuotesController');
+
 Route::get('/', function()
 {
 	return View::make('hello');

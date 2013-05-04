@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'EntypoRegular';
+    src: url('../font/Entypo/entypo.eot');
+    src: url('../font/Entypo/entypo.eot?#iefix') format('embedded-opentype'),
+         url('../font/Entypo/entypo.woff') format('woff'),
+         url('../font/Entypo/entypo.ttf') format('truetype'),
+         url('../font/Entypo/entypo.svg#EntypoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	background-color: #C22D2D;
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.container {
+	width:500px;
+	margin: 0 auto;
+}
+
+.container header {
+	text-align: center;
+	font-size: 32px;
+}
+
+.quote {
+	background-color: #F7DB86;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 20px;
+	color: black;
+	position: relative;
+}
+
+.quote .statement {
+	font-style: italic;
+	font-size: 21px;
+	line-height: 32px;
+	margin:10px;
+}
+
+.quote .statement:before {
+	
+}
+
+/*.quote .left-quote {
+	font-size: 128px;
+	line-height: 128px;
+	float:left;
+	
+}
+
+.quote .right-quote {
+	font-size: 128px;
+	line-height: 128px;
+	position: absolute;
+}*/
+
+.quote .author {
+	text-align: right;
+}
+
+.quote .author:before {
+	content: "- ";
+}
+
+.quote .actions {
+	font-family: 'EntypoRegular';
+	font-size: 40px;
+	line-height: 40px;
+}
